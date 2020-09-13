@@ -31,7 +31,7 @@ You will need to install a recent version of NodeJS (which will also install npm
 * https://nodejs.org/   (I recommend LTS version)
 
 All instruction and examples will use `npm` instead of `yarn`.
-- Do *NOT* install anything for node/npm with 'sudo' or as administrator unless you know how to clean up the permissions mess it creates.   (E.G. Do NOT run commands that start with `sudo npm install`
+- Do *NOT* install anything for node/npm with 'sudo' or as administrator unless you know how to clean up the permissions mess it creates.   (e.g. Do NOT run commands that start with `sudo npm install` )
 
 ### Chrome Web Browser
 You will need to install and use the (free of cost) Chrome web browser if you do not already have it

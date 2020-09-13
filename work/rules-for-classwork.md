@@ -24,6 +24,9 @@ Items that are marked with `(For this class)` mean that they aren't global best 
 - Do not use `!important`
 - Use class names that describe the content instead of how the content will appear
 - Avoid using prefixed properties (e.g. --moz-something)
+- Do not use `float` unless you are wrapping text around an image
+- Do not use `table-` properties (For this class) 
+- Do not set everything to a fixed width - allow for the page to resize automatically
 
 ## JS
 - Do not use `alert()` 
@@ -36,8 +39,13 @@ Items that are marked with `(For this class)` mean that they aren't global best 
 - Always use {} in an `if` statement, even if it is one-line
 - Prefer to use `let` over `const` (For this class)
 - Always use semicolons where appropriate (For this class)
-- Do not use Map() or Set() (For this class, purely to learn objects)
-- More to come
+- Do not use Map() or Set() (For this class, purely to learn JS objects)
 
 ## JSX
-- More to come
+- Always capitalize filenames and module names
+- One component per file (For this class)
+- Name your component to match your filename
+- Have meaningful component names
+- Use .jsx extensions on components (For this class) 
+- Break up your component if it gets complex
+- Do not use props to set state

@@ -1,5 +1,5 @@
 ﻿# Course Syllabus: INFO 6250 - Seattle
-# Summer Semester 2020
+# Fall Semester 2020
 Instructor: Brett Ritter `<b.ritter@neu.edu>`
 
 This course covers Web Development, focusing on both the fundamentals and from them modern development practices for the web.  The class will use Javascript on both the front- and back-ends of web application development, but the lessons learned will be applicable to many languages.  
@@ -35,16 +35,13 @@ This course covers Web Development, focusing on both the fundamentals and from t
 - Students should ask questions where anything is unclear
 - A great deal of work will be done online, in and out of class
 
-A more detailed listing of requirements and expectations will be shared in the class github repository 
-
 ## Expected Class Schedule (subject to change):
 
 ### Section 1: Web Fundamentals
-Mon May 4,
-Mon May 11,
-Mon May 18,
-NOT Mon May 25 (holiday),
-Mon Jun 1,
+Mon Sep 14,
+Mon Sep 21,
+Mon Sep 28,
+Mon Oct 5
 
  - HTTP, servers/webservers, browsers, clients, URL/URI, HTTP as stateless, request/response, headers/body
  - The role of HTML, CSS, and JS
@@ -64,10 +61,11 @@ Mon Jun 1,
 At the end of Section 1 you should be able to write a simple multiple page web application using NodeJS that serves semantic HTML and styles with CSS.  You will receive from github repository updates and submit your work via Pull Requests (PRs) in the same fashion that many employers conduct their work.
 
 ### Section 2: The Recent Web
-Mon Jun 8,
-Mon Jun 15,
-Mon Jun 22,
-Mon Jun 29,
+NOT Mon Oct 12 (Holiday),
+Mon Oct 19,
+Mon Oct 26,
+Mon Nov 2,
+Mon Nov 9
 
  - the DOM, cookies, localStorage, indexedDB
  - application state, state in model vs state in DOM
@@ -79,11 +77,10 @@ Mon Jun 29,
 At the end of Section 2 you should be able to write a simple single page web application (SPA) calling RESTful, external services, and use NodeJS to provide those service endpoints
 
 ### Section 3: The Modern Web Industry
-Mon Jul 6,
-Mon Jul 13,
-Mon Jul 20,
-Mon Jul 27,
-Mon Aug 3
+Mon Nov 16,
+Mon Nov 23,
+Mon Nov 30,
+Mon Dec 7
 
  - Frontend frameworks/libraries, React, virtual DOM, JSX, Single Page Applications (SPA)
  - props vs state, Pure components vs stateful components
@@ -96,9 +93,9 @@ Mon Aug 3
 At the end of Section 3 you should be able to analyze provided designs to matching write a complex single page web application (SPA) and prior to actual coding identify potential problems with development due to insufficient/poor requirements.
 
 ### Final Exam due
-Sun Aug 2 (11:59pm PT)
+Sun Dec 6 (11:59pm PT)
 
 ### Final Projects Due 
-Sun Aug 9 (11:59pm PT)
-No class Mon Aug 10 (just Project due)
+Sun Dec 13 (11:59pm PT)
+No class Mon Dec 14 (just Project due)
 

@@ -1,6 +1,6 @@
 # Assignment - Testing node and git
 
-** Due: Sun May 10, 11:59pm PT** 
+** Due: Sun Sep 13, 11:59pm PT** 
 
 # Instructions
 
@@ -30,14 +30,14 @@ From this directory, at the command line:
 1. Commit the file: `git commit -m "Adds MYNAME"` (Example: `git commit -m"Adds Lex"`
   * This commit message reflects your changes.  If you make other changes and have to commit those, and when you commit other assignments, the commit messages should reflect THOSE changes, they should NOT say "Adds MYNAME".
 1. Send your changes to github: `git push origin setup-info6250` 
-1. Go to the github page for this repository and create a Pull Request(PR), with 'master' on the left dropdown and your setup-info6250 branch on the right dropdown.
-  * Do not merge, you must create a Pull Request.  Your repositories should be set so that you cannot merge to master without a Pull Request, but they are created without that requirement so there is a period of time where you can merge, but you shouldn't do it.  Learn how to create the PR, because that's how all assignments for the class will be turned in, and if you do it wrong, your grade could suffer.
+1. Go to the github page for this repository and create a Pull Request(PR), with 'main' on the left dropdown and your setup-info6250 branch on the right dropdown.
+  * Do not merge, you must create a Pull Request.  Your repositories should be set so that you cannot merge to main without a Pull Request, but they are created without that requirement so there is a period of time where you can merge, but you shouldn't do it.  Learn how to create the PR, because that's how all assignments for the class will be turned in, and if you do it wrong, your grade could suffer.
   * Add myself and the TA to review the PR.  If you don't do this, we may not know your work is ready and you won't get credit for it.
 2. If the changes look correct, Create the Pull Request.
   * If you edited and added `.gitignore`, that change should be listed as well as your changes to list.js
   * There should NOT be changes to other files.
   * Be sure to **add me (and any TAs) as reviewer** on the PR.
-1. Remember to return the master branch!  `git checkout master`.  In this branch, your changes do not exist (not until they are approved, merged in, and you pull the updated master branch)
+1. Remember to return the main branch!  `git checkout main`.  In this branch, your changes do not exist (not until they are approved, merged in, and you pull the updated main branch)
 
-Then you're done! At some point your code will be reviewed merged into master.  At a real job, you are usually responsible for merging your code after it is approved.
+Then you're done! At some point your code will be reviewed merged into main. At a real job, you are usually responsible for merging your code after it is approved.
 
