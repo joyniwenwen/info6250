@@ -20,7 +20,7 @@ function compare( word, guess ) {  // DO NOT MODIFY
 
 	for (let i in wordLowerCase){
 		let position = guessLowerCase.indexOf(wordLowerCase[i]);
-		if (position != -1){
+		if (position !== -1){
 			count++;
 			guessLowerCase = guessLowerCase.substring(0, position) + guessLowerCase.substring(position + 1);
 		}
