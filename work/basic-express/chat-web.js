@@ -1,6 +1,5 @@
 const chatWeb = {
   chatPage: function(chat) {
-    // Fill in anything below!
     return `
       <!doctype html>
       <html>
@@ -29,7 +28,6 @@ const chatWeb = {
   getMessageList: function(chat) {
     return (
       `<ol class="messages">` +
-      // Fill in!
       chat.messages
       .map(
         (message) => `
@@ -66,7 +64,6 @@ const chatWeb = {
     );
   },
   getOutgoing: function() {
-    // Fill in!
     return `
       <div class="addmessage">
         <form action="/chat" method="POST">
