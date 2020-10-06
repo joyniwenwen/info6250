@@ -103,4 +103,7 @@ Numerous other approaches exist, each trying to find the balance point between '
   * https://caniuse.com/
 * Guide to Flexbox - a helpful overview of one of the best CSS features in years
   * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
+* Flexbox Froggy - a site that lets you practice making specific changes via flexbox
+  * https://flexboxfroggy.com
+* Css grid garden - a site that lets you practice making specific changes via CSS Grid
+  * https://cssgridgarden.com

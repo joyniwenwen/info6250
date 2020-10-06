@@ -34,7 +34,7 @@ The Chat application will work to show all messages, and add messages from a sin
     * But it must be fundamentally semantically valid and other best practices from class
 * You may modify the CSS as you see fit
     * But you must follow the best practices given in class
-    * Using/extending your CSS from the basic-css assignment is allowed and encouraged
+    * Using/extending your CSS from assignments/classes is allowed and encouraged
 * The `name` form fields attributes must be:
     * `username` for the username
     * `text` for the new message text
@@ -44,6 +44,7 @@ The Chat application will work to show all messages, and add messages from a sin
     * /chat
 * You may add additional JS files (server-side ONLY) that you write
     * But they must maintain/extend the existing separation of concerns
+* Formatting dates and times is a nightmare in any language, so you do not HAVE to format your timestamps  
 
 ## Restrictions
 * DO NOT HAVE ANY "PASSWORD" behavior
