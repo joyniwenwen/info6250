@@ -17,7 +17,7 @@ const messages = [
 ];
 
 function addMessage({ sender, timestamp, text }) {
-  // Fill in!
+  messages.push({sender, timestamp, text})
 }
 
 const chat = {
