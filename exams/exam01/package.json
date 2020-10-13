@@ -1,0 +1,16 @@
+{
+  "name": "exam01",
+  "version": "1.0.0",
+  "description": "Word guessing game for exam 01.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joyniwenwen",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  }
+}
