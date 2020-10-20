@@ -45,7 +45,7 @@
       // use data-index when modifying an item (instead of reading state from the DOM)
       return `
         <li>
-          <span class="todo ${todo.done && "complete"}" data-index="${index}">${todo.text}</span>
+          <span class="todo ${todo.done ? "complete" : ""}" data-index="${index}">${todo.text}</span>
           <span class="delete" data-index="${index}">X</span>
         </li>
       `;
