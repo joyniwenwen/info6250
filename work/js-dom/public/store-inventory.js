@@ -3,7 +3,7 @@
     const items = [
         {
             name: 'apple',
-            quantity: 100,
+            quantity: 100000,
         },
     ];
 
