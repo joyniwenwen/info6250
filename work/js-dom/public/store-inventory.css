@@ -16,7 +16,6 @@ body {
 #store-inventory-app .item-panel-title {
     display: flex;
     justify-content: space-between;
-    padding-right: 100px;
 }
 
 #store-inventory-app .item-adder {
