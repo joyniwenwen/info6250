@@ -12,8 +12,10 @@ app.get('/', (req, res) => {
 });
 
 app.post('/chat', express.urlencoded({ extended: false }), (req, res) => {
-  const sender = '1'; // Hardcode until we add a login
-  const { text } = req.body;
+  // const sender = '1'; // Hardcode until we add a login
+  const { text, sender } = req.body;
+  console.log(req.body);
+  console.log('query', req.query);
   chat.addMessage({ sender, text, timestamp: new Date() });
   res.redirect('/');
 });
