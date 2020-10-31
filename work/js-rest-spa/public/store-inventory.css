@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 500% 500%;
+    height: 100%;
+}
+
+#store-inventory-app  {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    height: 80%;
+}
+
+#store-inventory-app .app-title {
+    text-align: center;
+}
+
+#store-inventory-app .app-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+#store-inventory-app .welcome-panel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#store-inventory-app .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#store-inventory-app .loading-panel {
+    text-align: center;
+    font-size: 30px;
+}
+
+#store-inventory-app .item-adder {
+    display: flex;
+    justify-content: center;
+}
+
+#store-inventory-app .add:hover {
+    cursor: pointer;
+}
+
+#store-inventory-app .item-panel {
+    overflow-y: scroll;
+    height: 50%;
+}
+
+#store-inventory-app .inventory-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#store-inventory-app .name-and-delete {
+    border-color: black;
+    border-width: thin;
+    border-style: dashed;
+    width: 25%;
+}
+
+#store-inventory-app .inventory-item:hover {
+    background:rgb(233, 233, 233);
+}
+
+#store-inventory-app .inventory-item .name {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#store-inventory-app .inventory-item .delete:hover {
+    cursor: pointer;
+}
+
+#store-inventory-app .inventory-item .quantity-panel {
+    display: flex;
+    height: 30%;
+    width: 30%;
+    justify-content: start;
+}
+
+#store-inventory-app .inventory-item .quantity {
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+#store-inventory-app .status {
+    text-align: center;
+    color: red;
+}
