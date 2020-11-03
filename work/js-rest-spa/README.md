@@ -54,7 +54,6 @@ All updates to the inventory will make RESTful service calls
   - Trying to add an item with an empty name will return an error from the service
     - The page shouldn't allow this to be tried, but the service can still be called that way
 - Pressing "Update" will call `/items/:itemid` to update the quantity - the new item object should be returned like when the item is added
-  - You can still re-render the whole list afterward, but not if you only got the updated info for a single item
   - You can use a `data-item-id` HTML attribute to associate the item id with the individual row
   - You should NOT have an event listener on every row/button.  Use event bubbling/propagation.
   - This assignment does not resolve collisions between many users.  That is fine for this assignment.
@@ -62,7 +61,7 @@ All updates to the inventory will make RESTful service calls
   - Trying to modify an item that was deleted by another page should remove the item from this page and show an error message
 - Pressing "X" on an item will call `/items/:itemid`
   - The page should remove that item 
-  - Trying to delete and item that doesn't exist on the server should show an error message, but still remove the item from the page
+  - Trying to delete an item that doesn't exist on the server should show an error message, but still remove the item from the page
 - The logout button will call `/session`
   - This call removes the `sid` cookie (Hint: `res.clearCookie('sid');` should remove the cookie
   - The page will return to the login page
