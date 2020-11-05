@@ -10,14 +10,14 @@
     timerEl.innerText = `${minsLeft}:${secondsLeft.toString().padStart(2,'0')}`;
   };
 
-  const getControls = () => {
+  const updateTimer = () => {
     // No error checking shown, but should be present on real code
     return fetch('/api/controls', {
       method: 'GET',
     })
     .then( response => response.json() )
     .then( controls => setTimer(controls.timer.endAt) )
-    .then( setTimeout( getControls, 1000) );
+    .then( setTimeout( updateTimer, 1000) );
   };
 
   getControls();
