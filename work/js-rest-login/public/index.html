@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="todo.css"/>
+    </head>
+    <body>
+        <div id="todo-app">
+            <div class="title">
+                <h2>TODO List</h2>
+            </div>
+            <div class="login hidden">
+                <label>Username: <input type="text" class="username"></label>
+                <button type="button" class='login'>Login</button>
+            </div>
+            <div class="logged-in hidden">
+                <div class="welcome">
+                    <span class='welcome-title'>Welcome</span>
+                    <button class='logout' type="button">Logout</button>
+                </div>
+                <div class="task-adder">
+                <label>Taskname: <input type="text" class="taskname"></label>
+                <button type="button">Add</button>
+                </div>
+                <ul class="todos"></ul>
+            </div>
+            <div class="status">
+                <div class="errors">
+                    <ul class="error"></ul>
+                </div>
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
