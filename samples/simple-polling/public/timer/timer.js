@@ -20,7 +20,7 @@
     .then( setTimeout( updateTimer, 1000) );
   };
 
-  getControls();
+  updateTimer();
 
 })();
 

@@ -11,6 +11,8 @@ addLogin();
 checkLoginStatus()
 .then( (userInfo) => {
   showContent();
+  todos = userInfo.todos;
+  renderTodos(todos);
 })
 .catch( error => {
   showLogin();
