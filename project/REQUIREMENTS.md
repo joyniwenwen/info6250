@@ -1,6 +1,6 @@
 # Final Project Requirements
 
-* Your project is submitted as PR to merge your branch 'final-project' into master
+* Your project is submitted as PR to merge your branch 'final-project' into main
 * Be sure to include the reviewer(s) on your PR
 * Project is due 11:59pm (PT) on Sun Dec 13
 
