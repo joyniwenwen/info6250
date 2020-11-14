@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="recipes.css"/>
+    </head>
+    <body>
+        <div id = "recipe-app">
+            <div class='appbar'>
+                <div class='app-title'>
+                    <a>Recipedia</a>
+                </div>
+                <div class='login hidden'>
+                    <input type='text' class='username' placeholder="Enter Username To Login">
+                    <button type='button' class='loginBt'>Login</button>
+                    <div class='login-errors'>
+                        <ul class='errors'></ul>
+                    </div>
+                </div>
+                <div class='logged-in hidden'>
+                    <label>Welcome, <a class='username'></a></label>
+                    <button type='button' class='logoutBt'>Logout</button>
+                </div>
+            </div>
+            <div class="nav">
+                <button type='button' class='homeBt'>Home</button>
+                <button type='button' class='new-recipe logged-in'>New recipe</button>
+            </div>
+            <div class='home hidden'>
+                <ul class='recipes'></ul>
+            </div>
+            <div class='recipe-detail hidden'>
+            </div>
+            <div class='submit-recipe hidden'>
+                <form class='recipe-adder'>
+                    <h2>Add A New Recipe</h2>
+                    <textarea class='title-input' placeholder="Recipe Title"></textarea>
+                    <textarea class='ingredients-input' placeholder="Recipe Ingredients"></textarea>
+                    <textarea class='instructions-input'  placeholder="Recipe Instrictions"></textarea>
+                    <button type='button' class='submit'>Add</button>
+                </form>
+            </div>
+            <div class='footer'>
+                <hr>
+                Designed & Created by <a href="mailto:ni.wen@husky.neu.edu">Wenwen Ni</a>
+            </div>
+        </div>
+        <script src="recipes.js"></script>
+    </body>
+</html>

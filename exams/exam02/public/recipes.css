@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+}
+
+#recipe-app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+#recipe-app .app-title a {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+}
+
+/* app bar related things */
+#recipe-app .appbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#recipe-app .login.hidden {
+    display: None;
+}
+
+#recipe-app .logged-in.hidden {
+    display: None;
+}
+
+#recipe-app .login-errors .errors {
+    list-style: none;
+    color: red;
+}
+
+/* navigation bar */
+#recipe-app .nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+#recipe-app .nav button {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+#recipe-app .nav button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+/* home screen */
+#recipe-app .home.hidden {
+    display: None;
+}
+
+#recipe-app .home {
+    height: 70%;
+}
+
+#recipe-app .recipe-list.hidden {
+    display: None;
+}
+
+#recipe-app .recipes {
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+#recipe-app .recipe {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#recipe-app .recipes li {
+    margin: 30px 0;
+}
+
+#recipe-app .recipe-img{
+    padding: 0;
+    width: 50%;
+}
+
+#recipe-app .recipe img{
+    padding: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+#recipe-app .recipe-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+/* recipe detail screen */
+#recipe-app .recipe-detail.hidden {
+    display: None;
+}
+
+#recipe-app .author h2 {
+    font-family: Apple Chancery, cursive;
+    color: grey;
+}
+
+#recipe-app .recipe-detail {
+    width: 60%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+#recipe-app .recipe-detail .title {
+    text-align: center;
+}
+
+#recipe-app .recipe-detail .author {
+    text-align: center;
+    color: grey;
+    font-style: italic;
+}
+
+/* submit recipe screen */
+#recipe-app .submit-recipe.hidden {
+    display: None;
+}
+
+#recipe-app .submit-recipe {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#recipe-app .recipe-adder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#recipe-app .recipe-adder textarea{
+    width: 80%;
+    margin: 5% 0;
+}
+
+#recipe-app .recipe-adder .instructions-input{
+    height: 20%;
+}
+
+#recipe-app .recipe-adder .ingredients-input{
+    height: 20%;
+}
+
+#recipe-app .recipe-adder button {
+    width: 50%;
+    height: 10%;
+}
+
+#recipe-app .return-home.hidden {
+    display: None;
+}
+
+/* footer */
+#recipe-app .footer {
+    color: white;
+    height:10%;
+    text-align: center;
+    background-color: black;
+    bottom: 0px;
+}
+
+#recipe-app .footer a{
+    color: white;
+}
