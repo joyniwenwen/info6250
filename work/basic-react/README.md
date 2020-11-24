@@ -13,7 +13,7 @@
 
 - Create a React application that is made up of multiple components
 - Demonstrate an understanding of the `useState` hook
-- Demonstrate an understanding of gathering 
+- Demonstrate an understanding of gathering input into state as it is entered
 - Be able to import non-React JS and use it inside a component
 - Demonstrate an understanding of applying CSS to React components
 
