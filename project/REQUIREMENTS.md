@@ -27,7 +27,7 @@
 * The project must be a SPA
 * Your front end code must follow all the best practices as outlined in class and in PR feedback
 * Your front end code may include ONLY outside libs listed here, unless you get advance approval
-    * react, react-dom, create-react-app
+    * react, react-dom, create-react-app, react-router
     * eslint, babel, webpack (including the necessary modules for babel and/or webpack)
     * uuid
     * icon/image libraries that DO NOT use JS
@@ -44,7 +44,7 @@
 * Your backend/service code must use express-based NodeJS
 * The project must involve calling REST-based service calls that you write
     * You may call outside services as well, but you must use some services you write
-    * Your service calls must include at least 3 different methods
+    * Your service calls (the ones you wrote) must include at least 3 different methods
 * Your backend code must follow the best practices as outlined in class and in PR feedback 
 * Your backend code may include ONLY outside libs listed here, unless you get advance approval
     * express
