@@ -9,7 +9,7 @@ const Login = function({ onLogin }) {
   const [status, setStatus] = useState('');
 
   const onChange = (e) => {
-    setStatus('');
+    // setStatus('');
     setUsername(e.target.value);
     setIsDisabled(!e.target.value);
   };
@@ -18,9 +18,9 @@ const Login = function({ onLogin }) {
     setIsPending(true);
     createSession({ username })
     .then( userinfo => {
-      onLogin({ username, info: userinfo.info });
       setStatus('');
       setIsPending(false);
+      onLogin({ username, info: userinfo.info });
     })
     .catch( err => {
       setStatus(err.error);// TODO: convert to friendly message

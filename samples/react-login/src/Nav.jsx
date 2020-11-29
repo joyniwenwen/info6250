@@ -5,11 +5,11 @@ const Nav = function({ user, onLogout }) {
 
   return (
     <nav>
-      <ul class="nav">
+      <ul className="nav">
         <li><a href="#stuff">Link one</a></li>
         <li><a href="#stuff">Link two</a></li>
         <li><a href="#stuff">Link three</a></li>
-        <li class="logout"><a href="#logout" onClick={onLogout}>Logout</a></li>
+        <li className="logout"><a href="#logout" onClick={onLogout}>Logout</a></li>
       </ul>
     </nav>
   );

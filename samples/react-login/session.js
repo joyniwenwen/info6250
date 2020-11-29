@@ -8,7 +8,7 @@ const isValidUsername = function( username ) {
     return false;
   }
   const cleanUsername = username.replace(/[^a-zA-Z0-9_\-]/g, '');
-  if(!username === cleanUsername) {
+  if(username !== cleanUsername) {
     return false;
   }
   return true;
