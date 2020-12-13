@@ -1,0 +1,418 @@
+html, body, #root {
+  height: 100%;
+  background: greenyellow;
+}
+
+.app {
+  height: 100%;
+}
+
+.app-title {
+  text-align: center;
+}
+
+/*login screen*/
+.login-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 50%;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #00000099;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box label {
+  color: white;
+}
+
+.login-screen h2 {
+  color:white;
+  text-align: center;
+}
+
+.logo-img {
+  height: 80px;
+  width: 80px;
+}
+
+/*navigation bar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float:left;
+  list-style: none;
+}
+
+.nav .hidden {
+  display: none;
+}
+
+.nav a{
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #111;
+}
+
+.nav .logo-img {
+  margin: 1px;
+  height: 40px;
+  width: 40px;
+}
+
+/**/
+.watchlists {
+  width: 750px;
+  height: 500px;
+  margin: 20px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.watchlists-title {
+  height: 20px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.watchlists-title .name {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.watchlists ul {
+  list-style: none;
+  padding: 0;
+}
+
+.watchlists-names {
+  height: 30px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+  white-space: nowrap;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.watchlist-name {
+  height: 20px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.watchlist-span.selected {
+  display:inline-block;
+  border-bottom:1.5px solid black;
+  padding-bottom:5px;
+}
+
+.watchlist-row-title {
+  height: 20px;
+  border-bottom: 1px solid #E1E8EE;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.watchlist-stocks {
+  overflow-y: scroll;
+}
+
+.stock-row {
+  padding: 20px 30px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E1E8EE;
+}
+
+.watchlist-symbol-title {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.watchlist-price-title {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.watchlist-change-title {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.symbol {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.price {
+  margin-right: 60px;
+  width: 115px;
+}
+
+.change {
+  margin-right: 60px;
+  width: 115px;
+  display: flex;
+  flex-direction:row;
+}
+
+.stock-direction {
+  height: 20px;
+}
+
+.watchlists button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.delete-stock-img {
+  margin-left: 15px;
+  height: 30px;
+}
+
+.delete-stock-img:hover{
+  cursor: pointer;
+}
+
+.delete-watchlist-img.hidden {
+  display: none
+}
+
+.watchlist-operation-panel {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E1E8EE;
+}
+
+.add-watchlist {
+  margin-left: 30px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.add-watchlist:hover {
+  cursor: pointer;
+}
+
+.new-watchlist-name {
+  width: 100px;
+  margin: 10px;
+}
+
+/*Posts*/
+.existing-posts {
+  width: 750px;
+  height: 423px;
+  margin: 20px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  overflow-y: scroll;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  padding: 20px 30px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #E1E8EE;
+}
+
+.post .title {
+  margin-bottom: 10px;
+}
+
+.post .user {
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.post .time {
+  color:grey;
+  font-size: 1px;
+}
+
+.expression {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+.like-section {
+  width: 60px;
+}
+
+.like {
+  margin-top: 5px;
+  height: 20px;
+}
+
+.dislike-section {
+  width: 60px;
+}
+
+.dislike {
+  margin-left: 20px;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.newpost {
+  width: 750px;
+  height: 100px;
+  margin: 0px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end;
+}
+
+.newpost textarea {
+  margin-top: 10px;
+  width: 80%;
+}
+.newpost button {
+  width: 100px;
+  float: right;
+}
+
+.indexes-panel {
+  width: 750px;
+  height: 60px;
+  margin: 10px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+}
+
+.index-quote {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+}
+
+.index-quote .symbol {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.index-quote .price {
+  font-size: 10px;
+}
+
+.index-quote .change {
+  font-size: 10px;
+}
+
+.index-quote .percent.inc {
+  color: green;
+}
+
+.index-quote .percent.dec {
+  color: red;
+}
+
+/*browse stock*/
+
+.browse-stock .control {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fundamentals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.chart {
+  width: 500px;
+}
+
+.price-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.browse-stock .add-to-watchlist  {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.status {
+  position: absolute;
+  bottom: 5px;
+  width: 50%;
+  color: red;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
