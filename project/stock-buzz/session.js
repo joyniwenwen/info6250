@@ -2,7 +2,7 @@ const uuid = require('uuid').v4;
 
 const users = {};
 const sessions = {};
-let nextPostId = 1;
+let nextPostId = 3;
 const posts = [
     {
         username: 'warren_buffet',
@@ -16,7 +16,7 @@ const posts = [
         username: 'bill_ackmen',
         msg: 'Betted on the market crash, 2.6 billion in less than a month!',
         timestamp: new Date("2020-04-01 19:21:00"),
-        id: 0,
+        id: 1,
         like: 1000,
         dislike: 20,
     },
@@ -24,7 +24,7 @@ const posts = [
         username: 'cathie_wood',
         msg: 'Ark invest is beating the market!',
         timestamp: new Date("2020-09-01 09:00:00"),
-        id: 0,
+        id: 2,
         like: 300,
         dislike: 10,
     },
